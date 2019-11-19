@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: com.hjq:xxpermissions:5.5@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/f553f2d58d21ad5fe5b1a7edab3e6629/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/f553f2d58d21ad5fe5b1a7edab3e6629/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.hjq/xxpermissions/5.5/82c1a49fe14e4576dee94e3c7b96eba69336bda/xxpermissions-5.5-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

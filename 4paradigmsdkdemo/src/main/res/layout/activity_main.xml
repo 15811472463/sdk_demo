@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/permission_bt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="申请权限" />
+
+    <Button
+        android:id="@+id/banner_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/permission_bt"
+        android:layout_margin="10dp"
+        android:text="banner 集成" />
+
+
+    <Button
+        android:id="@+id/table_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/banner_btn"
+        android:layout_margin="10dp"
+        android:text="插屏 集成" />
+
+
+    <Button
+        android:id="@+id/splash_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/table_btn"
+        android:layout_margin="10dp"
+        android:text="开屏 集成" />
+
+
+    <Button
+        android:id="@+id/native_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/splash_btn"
+        android:layout_margin="10dp"
+        android:text="信息流 集成" />
+
+
+    <Button
+        android:id="@+id/erro_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/splash_btn"
+        android:layout_margin="10dp"
+        android:text="崩溃回传测试" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/native_btn"
+        android:layout_margin="10dp"
+        android:text="请先点击申请权限按钮，确保广告必须权限全部允许" />
+
+
+</RelativeLayout>
